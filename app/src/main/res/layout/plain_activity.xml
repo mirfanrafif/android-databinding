@@ -149,6 +149,7 @@
             android:max="@{100}"
             app:hideIfZero="@{viewmodel.likes}"
             app:progressScaled="@{viewmodel.likes}"
+            app:progressTint="@{viewmodel.popularity}"
             tools:progressBackgroundTint="@android:color/darker_gray" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
